@@ -1,6 +1,6 @@
 window.onload = function () {
-    const latitude = process.env.latitude
-    const longitude = process.env.longitude
+    const latitude = secrets.latitude
+    const longitude = secrets.longitude
 
     console.log(latitude)
 }
